@@ -32,7 +32,8 @@ form {
     height: 600px;
     width: 400px;
     margin: 0 auto;
-    box-shadow: 6px 6px grey;
+    box-shadow: Box-shadow: 0 4px 4 px 0
+             rgba (135,149,161, 0.50);
 
 }
 
