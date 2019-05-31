@@ -1,0 +1,108 @@
+.container,
+body {
+    background-color: #F8FAFC;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-field input {
+    border: 0;
+    background: #dae1e7;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 3px 0px;
+}
+
+.form-field label {
+ color: #22292f; 
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    margin: 0 auto;
+    align-content: space-between;
+}
+form {
+    background-color: white;
+    border-radius: 3px;
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 6px 6px grey;
+
+}
+
+.form-field label {
+    font-size: 1rem;
+    border-radius: 3px;
+    width: 350px;
+    margin: 0 auto;
+
+}
+
+button {
+    padding: 14px;
+    background-color: #3182CE;
+    border-radius: 3px;
+    border: 0;
+    display: flex;
+    align-content: flex-end;
+    margin: 0 319px;
+    color: white;
+    
+}
+
+h2 {
+    width: 350px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 5rem auto 0;
+    width: 600px;
+  }
+  
+  .progress-trackers {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .progress-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .progress-tracker span {
+    padding: 10px 15px;
+    background: #8795a1;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+    width: 20px;
+    text-align: center;
+  }
+  
+  .progress-tracker h2 {
+    text-transform: uppercase;
+    color: #8795a1;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .active-tracker {
+    color: #3182ce;
+  }
+  
+  .active-tracker span {
+    background: #3182ce;
+  }
+.back {
+    background: white;
+    color: #3182ce;
+    margin: 0 auto;
+}
